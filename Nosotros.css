@@ -1,0 +1,61 @@
+main {
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "article article article"
+        "section section section"
+        "footer footer footer";
+}
+
+@media (min-width: 500px) {
+    main {
+        display: grid;
+        grid-template-areas: 
+        "header header header"
+        "nav nav nav"
+        "article article article"
+        "section section section"
+        "footer footer footer";
+    }
+}
+
+header {
+    grid-area: header;
+}
+
+
+nav {
+    grid-area: nav;
+}
+
+article {
+    grid-area: article;
+}
+
+
+footer {
+    grid-area: footer;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+section {
+    grid-area: section;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.tarjetas {
+    width: 50%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+}

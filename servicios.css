@@ -1,0 +1,22 @@
+section .servicios {
+    grid-area: servicios;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section .abajo {
+    grid-area: abajo;
+
+}
+
+tr {
+    color: red;
+}
+
+h2 {
+    color: rebeccapurple;
+}
